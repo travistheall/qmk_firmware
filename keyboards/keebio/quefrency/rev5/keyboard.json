@@ -65,7 +65,7 @@
         "bootmagic": false,
         "mousekey": false,
         "extrakey": true,
-        "rgblight": true,
+        "rgblight": false,
         "encoder": true
     },
     "qmk": {
