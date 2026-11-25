@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "qmk compile -kb keebio/quefrency/rev5 -km tnt",
+            "name": "qmk compile",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "command": "qmk flash -kb keebio/quefrency/rev5 -km tnt",
+            "name": "qmk flash",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+    ]
+}
